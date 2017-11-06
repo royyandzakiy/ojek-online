@@ -1,0 +1,333 @@
+@font-face {
+    font-family: "Bebas Neue";
+    src: url('fonts/BebasNeue.otf');
+}
+@font-face {
+    font-family: "Cambria";
+    src: url('fonts/cambria.ttc');
+}
+@font-face {
+    font-family: "GeoSlab703 Md BT";
+    src: url('fonts/tt0308m_.ttf');
+}
+
+
+body {
+		text-align: left;
+	}
+
+	div#head {
+		margin: 0px auto;
+		display: block;
+		max-width: 500px;
+		padding: 5px;
+	}
+			div#header {
+				max-width:50%;
+				display: inline-block;
+				text-align: left;
+			}
+
+			div#user {
+				max-width:50%;
+				float: right;
+				text-align: right;
+			}
+				h1.header {
+					font-family: "GeoSlab703 Md BT"/*, font2, font3*/;
+					font-style: bold;
+					/*src: url();*/
+				}
+				h4.header {
+					font-family: "Calibri Light"/*, font2, font3*/;
+				}
+				h4.hi {
+					font-family: "Calibri"/*, font2, font3*/;
+				}
+				h4.logout {
+					font-family: "Calibri Light"/*, font2, font3*/;
+				}
+
+	div.nav {
+		overflow: hidden;
+		display: block;
+	}
+
+			div.navbar {
+				margin: 0px auto;
+				display: block;
+				max-width: 500px;
+			}
+
+			div.navbar button {
+				display: inline-block;
+				width: 33.332%;
+				border:none;
+				outline:none;
+				cursor:pointer;
+				margin: 0;
+				padding:10px 5px;
+				border: 1px solid #000;
+				background-color: #fff;
+			}
+
+					div.navbar button:hover {
+
+					}
+
+					div.navbar button.active {
+						background-color: #465D43;
+						color: white;
+					}
+
+					button.navlinks {
+						font-family: "Arial";
+						font-size:25px;
+						max-width:500px;
+					}
+
+	#main {
+		display: block;
+		margin: 0px auto;
+		max-width: 500px;
+	}
+		div#nav-1 h1 {
+			font-family: "Bebas Neue"/*, font2, font3*/;
+			font-size: 50px;
+			margin: 10px 0px;
+		}
+
+	div.tab {
+	}
+
+			div.tab div {
+				width: 130px;
+				padding: 5px;
+				color: #4B4B4B;
+				background-color: white;
+				display: inline-block;
+				border: 1px solid black;
+				margin-right: 30px;
+			}			
+
+					div.tab div:hover {
+						cursor:default;
+					}		
+
+					div.tab div.active {
+						background-color: #FFFE9F;
+					}
+
+					span.num-circle {
+						background-color: #f4f4f4;
+						border-radius: 100px;
+						padding: 10px;
+						float: left;
+						margin-right: 10px;
+					}
+
+			.tabcontent {
+				display:block;
+
+			}
+
+					.tabcontent table {
+						margin-top: 30px;
+					}
+
+					.tabcontent td {
+						font-family: "Arial"/*, font2, font3*/;	
+						font-size: 18px;
+						color: rgba(0,0,0,.8);
+						padding: 0px 0px 10px 0px;
+
+					}
+
+					.tabcontent td input {
+						font-family: "Arial"/*, font2, font3*/;	
+						font-size: 18px;
+						padding: 2px;
+						margin-left: 50px;
+					}
+
+					.tabcontent button {
+						font-family: "Cambria"/*, font2, font3*/;	
+						font-size: 25px;
+						background-color: rgba(130,216,0,.7);
+						padding: 7px 25px;
+						border-radius: 10px;
+						border:1px solid #000;
+						display: block;
+						margin: 50px auto;
+					}
+
+					.tabcontent button:hover {
+						cursor:pointer;
+					}
+
+					.tabcontent h2 {
+						font-family: "Bebas Neue"/*, font2, font3*/;	
+						font-size: 30px;
+						margin-top: 35px;
+					}
+		
+		/* ORDER-2 */
+		.choose-driver{
+			display: block;
+			width: 97%;
+			height:110px;
+			margin: 10px;          
+		}
+
+				.choose-driver .img {
+					float:left;
+					width:100px;
+					height:100px;
+					border:1px solid black;
+					display: block;
+				}
+
+                        .choose-driver img {
+                            position:absolute;
+                            clip: rect(0px,100px,100px,0px);
+                        }
+
+				.choose-driver .data {
+
+					height: 100px;
+                    display: block;
+                    margin-left: 110px;
+				}
+
+						.choose-driver .data h3 {
+							font-family: "GeoSlab703 Md BT"/*, font2, font3*/;
+							color: rgba(0,0,0,.8);
+							font-size: 25px;
+						}
+
+						.choose-driver .data .rating {
+							color:#fd9e37;
+						}
+
+						.choose-driver .data .choose-btn {
+							display: block;
+							font-family: "GeoSlab703 Md BT"/*, font2, font3*/;
+							font-size: 10px;
+							border-radius: 6px;
+							margin-right: 10px;
+							margin-top: 20px;
+						}
+
+		#pref_driver {
+			border:1px solid black;
+			border-radius: 7px;
+			margin: 15px 0px 0px 0px;
+			padding:2px 0px 0px 10px;
+		}
+
+				#pref_driver h2 {
+					font-family: "Bebas Neue"/*, font2, font3*/;
+					font-size: 33px;
+					margin-top: 0px;
+				}
+
+				#nothing {
+					padding:20px 0px;
+				}
+
+						#nothing p {
+							font-family: "Arial"/*, font2, font3*/;
+							font-size: 20px;
+							color:rgba(0,0,0,.4);
+							text-align: center;
+						}
+
+		#other_driv {
+			border:1px solid black;
+			border-radius: 15px;
+			margin: 7px 0px 0px 0px;
+			padding:2px 0px 0px 10px;
+		}
+
+				#other_driv h2 {
+					font-family: "Bebas Neue"/*, font2, font3*/;
+					font-size: 33px;
+					margin-top: 0px;
+				}
+
+
+	/* ORDER-3 */
+	.driver-show{
+			display: block;
+			text-align: center;    
+		}
+
+				.driver-show .img {
+					width:100px;
+					height:100px;
+					display: inline-block;
+				}
+
+                        .driver-show img {
+                            position:relative;
+                            clip-path: circle(50px at center);
+                            margin: -25px 0px 0px -50px;
+                        }
+
+                        .driver-show h4 {
+                        	font-family: "GeoSlab703 Md BT"/*, font2, font3*/;	
+							font-size: 25px;
+							margin-top: 10px;
+                        }
+
+                        .driver-show p {
+                        	font-family: "GeoSlab703 Md BT"/*, font2, font3*/;
+							font-size: 20px;
+                        }
+
+                        #driver-comment {
+                        	display: inline-block;
+                        	font-family: "Arial"/*, font2, font3*/;
+                        	font-size: 15px;
+                        	width: 100%;
+                        	height: 50px;
+                        	resize:none;
+                        }
+
+                        .driver-show #submit-order {
+                        	font-family: "GeoSlab703 Md BT"/*, font2, font3*/;
+                        	font-size: 15px;
+                        	width: 130px;
+                        	height: 50px;
+                        	border: 1px solid black;
+                        	float: right;
+                        	border-radius: 10px;	
+                        	background-color: rgba(130,216,0,.7);
+                        	margin: 0px;
+                        }                        
+                        		
+     /* STAR RATING */
+     .star-rating {
+	    direction: rtl;
+	    display: inline-block;
+	    padding: 20px
+	}
+
+	.star-rating input[type=radio] {
+	    display: none
+	}
+
+	.star-rating label {
+	    fill: #fff;
+	    font-size: 18px;
+	    padding: 0;
+	    cursor: pointer;
+	    -webkit-transition: all .3s ease-in-out;
+	    transition: all .3s ease-in-out
+	}
+
+	.star-rating label:hover,
+	.star-rating label:hover ~ label,
+	.star-rating input[type=radio]:checked ~ label {
+	    fill: #f2b600;
+	}

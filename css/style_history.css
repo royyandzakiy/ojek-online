@@ -1,0 +1,176 @@
+.container {
+	position: relative;
+	background: #FFFFFF;
+	max-width: 500px;
+	margin: 0 auto 100px;
+	padding: 2px;
+	text-align: center;
+	align-items: center;
+}
+
+.menu {
+	position: relative;
+	background: #FFFFFF;
+	margin: 0 auto 10px;
+	width: 650px;
+	padding: 5px;
+	text-align: center;
+}
+.menu button{
+	font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    background: #FFFFFF;
+    padding: 10px;
+    height: 50px;
+    width: 300px;
+    color: #000000;
+    font-size: 18px;
+    float: center;
+    border: 0.5px;
+    outline: solid;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+.tab .active {
+	margin-left: 0px;
+}
+h1 {
+	text-align: left;
+}
+
+.tab{
+	display: inline-block;
+	overflow: hidden;
+}
+
+.tab button {
+	font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    background: #FFFFFF;
+    height: 50px;
+    width: 230px;
+    color: #000000;
+    font-size: 18px;
+    float: center;
+    border: 1px solid #000000;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.tab #tab_his2_submit {
+	font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    background: #FFFFFF;
+    height: 50px;
+    width: 230px;
+    color: #000000;
+    font-size: 18px;
+    float: center;
+    border: 1px solid #000000;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.menu .active {
+	background: #995e0c;
+}
+
+.tab .active {
+	background: #995e0c;
+}
+
+body {
+  background: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+}
+
+.driver {
+	text-align: left;
+}
+
+.tanggal {
+	text-align: left;
+}
+
+.tempat {
+	text-align: left;
+}
+
+.hide {
+	float: right; 
+	display: inline-block;
+}
+
+.hide button {
+	font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    background: #4CAF50;
+    padding: 10px;
+    border: 1px solid #000000;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 10px;	
+}
+
+.contentup {
+	float: left;
+	display: inline-block;
+}
+.
+div.picture {
+  float: left;
+  margin-left: 1.5em;
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid #000000;
+  position: relative;
+  overflow: hidden;
+  background-color: $gray;
+}
+
+img {
+	border: 1px solid #000000;
+	width: 150px;
+	height: 150px;
+}
+
+.content {
+	padding: 15px 15px 15px 15px;
+	background: #FFFFFF;
+	display: flex;
+	margin: 10px 10px 10px 10px;
+
+}
+
+.down {
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.you-rated {
+	display: inline-block;
+	float: left;
+}
+
+#you-rated {
+	font-size: 20px;
+
+}
+.comment {
+	float: left;
+	align-items: left;
+	text-align: left;
+}
+
+.you-commented {
+	text-align: left;
+	float: left;
+	display: inline-block;	
+}
+.text {
+	margin: 15px 15px 15px 30px;
+	font-family: "Roboto", sans-serif;
+}

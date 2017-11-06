@@ -1,0 +1,240 @@
+.isi-pref-loc ul {
+	list-style-type: disc;
+}
+
+.header-my-profile {
+	letter-spacing: -1.5px;
+	font-weight: bold;
+	font-size: 24pt;
+}
+.edit-icon {
+	float: right;
+	width: 36px;
+	height: 36px;
+}
+
+.rating-myprof {
+	display: inline;
+	color :#fd9e37;
+}
+
+.prof-pic {
+	border:4px solid #000;
+	border-radius:50%;
+	width:120px;
+	height:120px;
+}
+.my-profile {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 13pt;
+	margin-bottom: 25px;
+}
+
+.username-myprof {
+	font-size: 17pt;
+	padding-bottom: 5px;
+	font-weight: bold;
+}
+
+.header-pref-loc {
+	letter-spacing: -0.5px;
+	font-size: 18pt;
+}
+
+.edit-loc {
+	display: none;
+}
+
+.edit-pic {
+	/*border: 2px solid #000;*/
+	width:140px;
+	height:140px;
+	float:left; 
+	margin-right: 10px;
+}
+
+
+.button-save {
+	background-color: #4CAF50; /* Green */
+    border: 2px solid #000;
+    color: black;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    font-size: 16px;
+    border-radius: 10%;
+    height: 38px;
+}
+
+#save-button {
+
+}
+
+
+.button-back {
+    background-color: #FF0000; /* Red */
+    border: 2px solid #000;
+    color: black;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10%;
+    height: 16px;
+}
+
+.update-profile-picture {
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.form-edit-profile {
+	margin-top: 50px;
+	font-size: 14pt;
+	margin-bottom: 50px;
+	padding-right: 50px;
+
+}
+
+.button {
+	margin-top: 50px;
+}
+
+.form-profile {
+	text-align: left;
+	display: inline-block;
+	width: 290px;
+	float: right;
+	font-size: 14px;
+
+}
+
+.add-loc {
+	font-weight: bold;
+	font-size: 22px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#form-add-loc {
+	width: 400px;
+	height: 30px;
+	font-size: 22px;
+}
+
+table.tabel-loc {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 18px;
+}
+
+ table.tabel-loc th, table.tabel-loc td {
+	border:1px solid grey;
+	padding-left: 7px;
+	padding-right: 10px;
+}
+
+#h-loc {
+	width: 380px;
+}
+
+#h-act {
+	width: 80px;
+}
+
+.icon-ok {
+	display: none;
+	width: 22px;
+	height: 22px;
+}
+
+	.icon-ok:hover {
+		cursor: pointer;
+	}
+
+.icon-ed , .icon-del {
+	width: 22px;
+	height: 22px;
+	padding-left: 8px;
+	padding-right: 3px;
+}
+
+	.icon-ed:hover, .icon-del:hover {
+		cursor: pointer;
+	}
+
+.icon-del {
+	float: right;
+}
+
+.isi-pref-loc {
+	font-size: 18px;
+}
+
+.dri-button {
+	float: right;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+ /* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #0fe252;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #0fe252;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+} 

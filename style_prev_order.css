@@ -1,0 +1,99 @@
+.container {
+	position: relative;
+	background: #FFFFFF;
+	max-width: 650px;
+	margin: 0 auto 100px;
+	padding: 45px;
+	text-align: center;
+}
+
+.tab button {
+	font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    background: #4CAF50;
+    padding: 15px;
+    width: 300px;
+    color: #FFFFFF;
+    font-size: 14px;
+    float: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+.tab .active {
+	background: #995e0c;
+}
+
+body {
+  background: #76b852; /* fallback for old browsers */
+  font-family: "Roboto", sans-serif;
+}
+
+.driver {
+	text-align: left;
+}
+
+.tanggal {
+	text-align: left;
+}
+
+.tempat {
+	text-align: left;
+}
+
+.hide {
+	float: right; 
+	display: inline-block;
+}
+
+.contentup {
+	float: left;
+	display: inline-block;
+}
+.
+.picture {
+  float: left;
+  margin-left: 1.5em;
+  display: inline-block;
+  cursor: pointer;
+  border: 1em solid $gray;
+  position: relative;
+  overflow: hidden;
+  background-color: $gray;
+}
+
+img {
+	width: 150px;
+	height: 150px;
+}
+
+.content {
+	padding: 15px 15px 15px 15px;
+	background: #ecf7c5;
+	display: flex;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 0 5px 0 rgba(0, 0, 0, 0.24);
+	margin: 20px 20px 20px 20px;
+
+}
+
+.down {
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.rating {
+	float: left;
+}
+
+.comment {
+	float: left;
+	align-items: left;
+	text-align: left;
+}
+
+.text {
+	margin: 15px 30px 15px 15px;
+}

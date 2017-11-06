@@ -1,0 +1,136 @@
+.container {
+  width: 500px;
+  padding: 10px 0 0;
+  margin: auto;
+}
+
+.header {
+  position: relative;
+  max-width: 360px;
+  margin: 0 auto 50px;
+  padding: 0px;
+  text-align: center; 
+  font-size: 50px;
+  font-family: "Roboto", sans-serif; 
+  font-weight: bold;
+  color: #02702C;
+}
+
+div .input {
+  display: flex;
+  padding: 5px;
+  width: 500px;
+  height: 40px 
+}
+
+
+div .input #isDriver {
+  padding-top: 40px;
+  width: 18px;
+  margin-top: 3px;
+  padding-right: 10px;
+  margin-right: 10px; 
+  zoom : 2;
+  align-content: left;
+}
+
+#username {
+  width: 400px;
+<<<<<<< HEAD
+}
+
+div #cek_user {
+  width: 100px;
+}
+
+div #cek_email {
+  width: 100px;
+}
+
+#check {
+  margin-top: 20px;
+}
+
+#email {
+  width: 400px;
+}
+
+div .button {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.input p {
+  width: 300px;
+  text-align: left;
+  color: #315900;
+  font-weight: bold;
+  font-size: 20px;
+  height: 35px; 
+  margin: 0px;
+  margin-top: 7px;
+}
+
+.form {
+  position: relative;
+  background: #8BBD3C;
+  width: 500px;
+  margin: 0 auto 100px;
+  padding: 15px;
+  text-align: center;
+  border: 10px solid #02702C;
+  border-radius: 40px;
+}
+
+
+form button {
+  background: #82D800;
+  border-radius: 10px;
+  border: 3px solid #02702C;
+  width: 100px;
+  padding: auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  margin-left: 200px;
+}
+
+.alert {
+  font-family: "Roboto", sans-serif;
+  color: #ed1c1c;
+  font-size: 14px;  
+}
+
+.form input {
+  font-family: "Roboto", sans-serif;
+  background: #f2f2f2;
+  border: 1px solid #000000;
+  width: 100%;
+  margin: 0 0 5px;
+  font-size: 14px;
+}
+
+.form button:hover,.form button:active,.form button:focus {
+  background: #43A047;
+}
+
+.form .message {
+  margin: 15px 0 0;
+  color: #02702C;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.form .message a {
+  color: #02702C;
+  text-decoration: underline;
+}
+
+body {
+  background: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+}
+
+.login-form span {
+  color:rgb(2,112,44);
+}
